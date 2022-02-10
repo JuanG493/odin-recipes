@@ -1,0 +1,67 @@
+body{
+    background-color: goldenrod;
+    font-family: monospace, "Courier New", "Trebuchet MS" ;
+    color: rgb(36, 29, 32);
+}
+body h1{
+    font-size: 35px;
+    text-align: center;
+    color: rebeccapurple;    
+}
+a:link{
+    text-decoration: none;
+  
+}
+.principal {
+  display: block;
+  font-size: 20px;
+  height: 35px;
+  text-align: center;
+  padding: 10px;
+
+  
+} 
+.principal > li{ 
+    text-decoration: none;
+    display: inline-flex;
+    margin-left: 10px;
+    border: 2px solid blue;
+    background-color: rgba(113, 80, 155, 0.137);
+    padding: 5px;
+
+    
+} 
+.principal > li:hover{
+    border: double rgba(102, 51, 153, 0.13) 2px;
+    background-color: rgba(0, 0, 255, 0.185); 
+   
+
+}
+
+.principal:active{
+    color: yellow;
+    
+}
+h1 + img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+img + p{
+    text-align: center;
+}
+.r1::first-letter{
+    text-transform: uppercase;
+}
+#home123{
+    
+   display: block;
+   text-decoration: none;
+   text-align: center;
+
+}
+#home123:hover{
+    color: antiquewhite;
+    
+}
